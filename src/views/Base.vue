@@ -1,6 +1,6 @@
 <template>
-  <div class="home">
-    <HelloWorld msg="Welcome to Twelvetro"/>
+  <div>
+    Content
   </div>
 </template>
 
@@ -8,7 +8,7 @@
 import GameField from '@/components/GameField.vue';
 
 export default {
-  name: 'Game field',
+  name: 'GameField',
   components: {
     GameField,
   },
