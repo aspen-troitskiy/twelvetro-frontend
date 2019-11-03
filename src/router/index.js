@@ -1,14 +1,14 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import Base from '../views/Base.vue';
+import GameField from '../components/GameField.vue';
 
 Vue.use(VueRouter);
 
 const routes = [
   {
     path: '/',
-    name: 'base',
-    component: Base,
+    name: 'GameField',
+    component: GameField,
   },
   // {
   //   path: '/about',
