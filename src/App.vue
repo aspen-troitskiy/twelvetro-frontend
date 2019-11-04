@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Base</router-link>
+      <router-link to="/">Twelvetro</router-link>
     </div>
     <router-view/>
   </div>
@@ -15,10 +15,8 @@
   text-align: center;
   color: #2c3e50;
 }
-
 #nav {
   padding: 30px;
-
   a {
     font-weight: bold;
     color: #2c3e50;
@@ -27,5 +25,19 @@
       color: #42b983;
     }
   }
+}
+#wrapper{
+  width: 650px  ;
+  height: auto;
+  background-color: rgb(198, 241, 200);
+  margin: 0 auto;
+  margin-top: 200px;
+  border-radius: 10px;
+}
+html, 
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #121212;
 }
 </style>
